@@ -97,8 +97,8 @@ private:
         nfe = 0;
         MAX_NFE = dim * 10000;
 
-        CR = 0.9;
-        F = 0.5;
+        CR = 0.6;
+        F = 0.6;
 
         pop.clear();
         pop.swap(pop);
