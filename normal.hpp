@@ -89,9 +89,10 @@ private:
     }
     void Set(int pop_size, int dim, int fun_num, int ben_num)
     {
+        cout << scientific << setprecision(8);
         max = 100.0;
         min = -100.0;
-        if (ben_num == -1) //testing function
+        if (ben_num == -1) // testing function
             Set_Range(max, min, fun_num, dim);
         nfe = 0;
         MAX_NFE = dim * 10000;

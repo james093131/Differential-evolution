@@ -4,19 +4,19 @@
 #include <stdlib.h>
 #include <math.h>
 #define PI 3.1415926535897932384626433832795029
-void ACKLEY_OBJECTIVE_VALUE(double *x, double *f, int DIM);      //Ackley  -40~40
-void RASTRIGIN_OBJECTIVE_VALUE(double *x, double *f, int DIM);   //Rastrigin -5.12~5.12
-void ROSENBROCK_OBJECTIVE_VALUE(double *x, double *f, int DIM);  //Rosenbrock -5~10
-void SPHERE_OBJECTIVE_VALUE(double *x, double *f, int DIM);      //Sphere 0~PI
-void Michalewicz_OBJECTIVE_VALUE(double *x, double *f, int DIM); //Michalewicz -5.12~5.12
-void Bent_Cigar_OBJECTIVE_VALUE(double *x, double *f, int DIM);  //BentCigar -100~100
-void Schaffer_F7_OBJECTIVE_VALUE(double *x, double *f, int DIM); //Schaffer F7 -100~100
-void Zakharov_OBJECTIVE_VALUE(double *x, double *f, int DIM);    //Zakharov -100~100
-void Griewank_OBJECTIVE_VALUE(double *x, double *f, int DIM);    //Griewank -600~600
-void Schwefel_OBJECTIVE_VALUE(double *x, double *f, int DIM);    //Schwefel -500~500
-void SUM_SQUARES_OBJECTIVE_VALUE(double *x, double *f, int DIM); //Sum Squares -10~10
-void POWELL_OBJECTIVE_VALUE(double *x, double *f, int DIM);      //Powell -4~5
-void Trid_OBJECTIVE_VALUE(double *x, double *f, int DIM);        //Trid -200~200
+void ACKLEY_OBJECTIVE_VALUE(double *x, double *f, int DIM);      // Ackley  -40~40
+void RASTRIGIN_OBJECTIVE_VALUE(double *x, double *f, int DIM);   // Rastrigin -5.12~5.12
+void ROSENBROCK_OBJECTIVE_VALUE(double *x, double *f, int DIM);  // Rosenbrock -5~10
+void SPHERE_OBJECTIVE_VALUE(double *x, double *f, int DIM);      // Sphere 0~PI
+void Michalewicz_OBJECTIVE_VALUE(double *x, double *f, int DIM); // Michalewicz -5.12~5.12
+void Bent_Cigar_OBJECTIVE_VALUE(double *x, double *f, int DIM);  // BentCigar -100~100
+void Schaffer_F7_OBJECTIVE_VALUE(double *x, double *f, int DIM); // Schaffer F7 -100~100
+void Zakharov_OBJECTIVE_VALUE(double *x, double *f, int DIM);    // Zakharov -100~100
+void Griewank_OBJECTIVE_VALUE(double *x, double *f, int DIM);    // Griewank -600~600
+void Schwefel_OBJECTIVE_VALUE(double *x, double *f, int DIM);    // Schwefel -500~500
+void SUM_SQUARES_OBJECTIVE_VALUE(double *x, double *f, int DIM); // Sum Squares -10~10
+void POWELL_OBJECTIVE_VALUE(double *x, double *f, int DIM);      // Powell -4~5
+void Trid_OBJECTIVE_VALUE(double *x, double *f, int DIM);        // Trid -200~200
 
 void Set_Range(double &max, double &min, int func_num, int dim)
 {
